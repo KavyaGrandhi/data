@@ -1,0 +1,85 @@
+REQUEST:
+
+
+POST https://us-central1-dialogflow.googleapis.com/v2beta1/projects/bbyus-ana-ccai-care-d01/locations/us-central1/conversations/CHfvsSSUgVsT1mFMTQxtDSd1V1su2sfYVp/participants/QFa3nENvR0W68ttI_rvxmw:analyzeContent
+
+POST data:
+{
+    "textInput": {
+        "text": "What is the scope of work for a dryer triage?",
+        "languageCode": "en-us"
+    }
+}
+
+
+
+RESPONSE:
+
+
+{
+  "message": {
+    "name": "projects/bbyus-ana-ccai-care-d01/locations/us-central1/conversations/CHfvsSSUgVsT1mFMTQxtDSd1V1su2sfYVp/messages/e537b06a9e4cf140",
+    "content": "What is the scope of work for a dryer triage?",
+    "languageCode": "en-us",
+    "participant": "projects/bbyus-ana-ccai-care-d01/locations/us-central1/conversations/CHfvsSSUgVsT1mFMTQxtDSd1V1su2sfYVp/participants/QFa3nENvR0W68ttI_rvxmw",
+    "participantRole": "END_USER",
+    "createTime": "2025-10-17T11:20:48.198767Z",
+    "sendTime": "2025-10-17T11:20:48.119517857Z"
+  },
+  "humanAgentSuggestionResults": [
+    {
+      "suggestKnowledgeAssistResponse": {
+        "knowledgeAssistAnswer": {
+          "suggestedQuery": {
+            "queryText": "Provide dryer troubleshooting steps."
+          },
+          "suggestedQueryAnswer": {
+            "answerText": "To troubleshoot your dryer, check the error code on the manufacturer's website or owner's manual. Ensure the energy saver is not activated and that the dryer is not overloaded. Also, clean the lint filter before every cycle, clean the moisture sensors, and ensure the dryer vent is clean.",
+            "generativeSource": {
+              "snippets": [
+                {
+                  "uri": "https://sn.bestbuy.com/otj?id=nr_kb_article&sysparm_article=KB0220714#page=20",
+                  "text": "# Dryers\n\nDryers • Error Code • See the manufacturer's website or owners manual for solutions. • Not Drying/Long Dry Times • Check energy saver is not activated. • The check unit is not overloaded. (dryer should not be filled over 50-60% to allow room for airflow) • The check lint filter is being cleaned before every cycle. • Check that the moisture sensors are being cleaned per owner's manual. • Check that dryer vent has been cleaned recently. The dryer vent should be cleaned at least once a year to keep unit drying efficiently and to prevent hazards such as fires. Dryer vent cleaning is performed by a professional who will come out and clean the whole vent from the dryer to outside. If product is determined to be defective and needs service, please refer to: • TV and Appliance Repair *Start Here* to begin building a repair work order • VOL: Vendor On Line Access Hub, User Guide & Serial Number Finder to determine serviceability Tv & Home Theater",
+                  "title": "Product Troubleshooting / Quick Fix",
+                  "metadata": {
+                    "title": "Product Troubleshooting / Quick Fix",
+                    "url": "https://sn.bestbuy.com/otj?id=nr_kb_article&sysparm_article=KB0220714",
+                    "topic_path": [
+                      "VSCS / BBCC / Care  / In-Store Scheduling",
+                      "VSCS / BBCC / Home Services / Repair"
+                    ],
+                    "ed_source": "gs://bbyus-shared-edp-media-d01-bbcc-knowledge-articles/engagement/bbcc-knowledge-articles/v2/content/KB0220714.pdf",
+                    "topic_name": [
+                      "In-Store Scheduling",
+                      "Repair"
+                    ]
+                  }
+                },
+                {
+                  "uri": "https://sn.bestbuy.com/otj?id=nr_kb_article&sysparm_article=KB0215402#page=6",
+                  "text": "# Dryer\n\n• Damaged - view pictures for the driver 1. Order part/redo service install (Store Warranty) - after prior validation of model, serial and version number information. 2. Offer a Gift Card to keep unit \"as is\". 3. Offer a refund/allowance to keep unit \"as is\". NOTE: Refer to Appliance Resolution Damaged Product Refund Process Section below to process. 4. R/E if the unit cannot be repaired to factory specs and customer satisfaction. • The door would not close correctly 1. Ask questions, i.e.: Was the door mount reversed upon installation? Are there any obstructions preventing door close? 2. Client Education: Troubleshoot with client on the phone - refer to owner's manual or manufacturer's website. 3. Set up a Redo: Set up a Redo if door was reversed upon delivery/installation. Otherwise set up diagnostic appointment, if unable to resolve over the phone. • No steam 1. Ask questions, i.e.: Was the unit installed with a steam kit? Is the steam option available for this model? 2. Client Education: Verify if the unit comes with a steam kit or has a steam feature. Troubleshoot with client on the phone - refer to owner's manual or manufacturer's website. 3. Set up a Redo: Set up a Redo or diagnostic appointment, if unable to resolve over the phone. • Not drying or heating 1. Ask questions, i.e.: Are both, automatic and manual drying modes affected? Does the load size meet manufacturer's recommendation? What are the error codes, if any displayed? How long after install did the unit stop heating? Is the lint trap being cleaned after each drying cycle? Is the warm air coming out of the vent outside of the house (through-the-wall vent mount only)? Any possibility of vent line obstruction? Does the unit get extremely hot on exterior panels while running? 2. Client Education: Troubleshoot with client on the phone - refer to owner's manual or manufacturer's website. 3. Set up a Redo: Set up a Redo or diagnostic appointment, if unable to resolve over the phone. • Burning smell 1. Ask questions, i.e.: How long ago was the unit installed? Was the dryer recently moved, possibly for cleaning? 2. Client Education: Oil burning smell may be present upon initial use of a new dryer to burn out residual coating substance used during production. This is normal. Drying cycle with no load and with high heat setting should be performed for at least 20 minutes before initial use of the unit. If this odor is still noticeable, check the vent line for possible lint build-up. Also, if the unit was recently moved/reinstalled the vent line may be obstructed. Troubleshoot with client on the phone - refer to owner's manual or manufacturer's website. 3. Set up a Redo: Set up a Redo or diagnostic appointment, if unable to resolve over the phone.",
+                  "title": "Appliance Resolution- Return Authorization and Damaged Product Refund Process",
+                  "metadata": {
+                    "topic_path": [
+                      "VSCS / Centralized Support / Global",
+                      "VSCS / Centralized Support / LPFR / Support "
+                    ],
+                    "ed_source": "gs://bbyus-shared-edp-media-d01-bbcc-knowledge-articles/engagement/bbcc-knowledge-articles/v2/content/KB0215402.pdf",
+                    "title": "Appliance Resolution- Return Authorization and Damaged Product Refund Process",
+                    "url": "https://sn.bestbuy.com/otj?id=nr_kb_article&sysparm_article=KB0215402",
+                    "topic_name": [
+                      "Global",
+                      "Support "
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "answerRecord": "projects/bbyus-ana-ccai-care-d01/locations/us-central1/answerRecords/b92aae1238228bda"
+        },
+        "latestMessage": "projects/bbyus-ana-ccai-care-d01/locations/us-central1/conversations/CHfvsSSUgVsT1mFMTQxtDSd1V1su2sfYVp/messages/e537b06a9e4cf140"
+      }
+    }
+  ]
+}
